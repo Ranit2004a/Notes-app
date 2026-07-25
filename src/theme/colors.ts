@@ -1,0 +1,46 @@
+export const NOTE_PALETTES = [
+  { id: 'default', light: '#ffffff', dark: '#1e293b', label: 'Default' },
+  { id: 'rose', light: '#fff1f2', dark: '#3b171e', label: 'Rose' },
+  { id: 'amber', light: '#fffbeb', dark: '#36240b', label: 'Amber' },
+  { id: 'yellow', light: '#fefce8', dark: '#332e08', label: 'Yellow' },
+  { id: 'mint', light: '#f0fdf4', dark: '#0c3019', label: 'Mint' },
+  { id: 'sky', light: '#f0f9ff', dark: '#0b2b40', label: 'Sky' },
+  { id: 'purple', light: '#f5f3ff', dark: '#241a45', label: 'Lavender' },
+  { id: 'pink', light: '#fdf2f8', dark: '#3b122e', label: 'Pink' },
+];
+
+export const LIGHT_THEME = {
+  background: '#f8fafc',
+  surface: '#ffffff',
+  surfaceBorder: '#e2e8f0',
+  surfaceVariant: '#f1f5f9',
+  textPrimary: '#0f172a',
+  textSecondary: '#64748b',
+  textMuted: '#94a3b8',
+  accent: '#6366f1',
+  accentForeground: '#ffffff',
+  accentLight: '#eeeffe',
+  danger: '#ef4444',
+  warning: '#f59e0b',
+  success: '#10b981',
+  pinnedBadge: '#f59e0b',
+  cardShadow: 'rgba(15, 23, 42, 0.06)',
+};
+
+export const DARK_THEME = {
+  background: '#090d16',
+  surface: '#131b2e',
+  surfaceBorder: '#1e293b',
+  surfaceVariant: '#1a243b',
+  textPrimary: '#f8fafc',
+  textSecondary: '#94a3b8',
+  textMuted: '#64748b',
+  accent: '#818cf8',
+  accentForeground: '#ffffff',
+  accentLight: '#232757',
+  danger: '#f87171',
+  warning: '#fbbf24',
+  success: '#34d399',
+  pinnedBadge: '#fbbf24',
+  cardShadow: 'rgba(0, 0, 0, 0.4)',
+};
