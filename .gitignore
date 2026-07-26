@@ -1,0 +1,29 @@
+# Node dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Expo & Metro output
+.expo/
+.metro/
+dist/
+web-build/
+
+# Build outputs
+build/
+*.apk
+*.aab
+
+# Environment & Config files
+.env
+.env*.local
+*.log
+
+# Editor & OS files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Coverage
+coverage/
